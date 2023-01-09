@@ -1,0 +1,97 @@
+
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="regis.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Sign Up! </h1>
+        <form method="post" autocomplete="on">
+            <div class="box">
+                <label for="first name " class="flfontlabel">
+                    First name:
+                </label>
+                <div class="new iconbox">
+                <i class="user" aria-hidden="true"></i>    
+                </div>
+                <div class="fr">
+                    <input type="text" name="First name" placeholder="First name"
+                    class="textbox" autofocus="on" required>
+
+                </div>
+                <div class="clr"></div>
+            </div>
+            <div class="box">
+                <label for="middle name" class="flfontlabel">
+                    Middle name:
+                </label>
+                <div class="fl iconbox"><i class="user"aria-hidden="true"></i></div>
+                <div class="fr">
+                    <input type="text" required name="middle name"placeholder="middle name" class="textbox">
+
+                </div>
+                <div class="clr">
+                    <div class="box">
+                        <label for="lastname" class="flfontlabel">
+                            
+                            Last name:
+                        </label>
+                        <div class="fl iconbox"><i class="user"aria-hidden="true"></i></div>
+                        <div class="fr">
+                            <input type="text" required name="last name"placeholder="last name" class="textbox">
+        
+                        </div>
+                        <div class="clr">
+        
+                </div>
+                <div class="box">
+                    <label for="phone"class ="flfontlabel">Phone number.:</label>
+                </div>
+                <div class="fl iconbox"><i class="phone" aria-hidden="true"></i></div>
+                <div class="fr">
+                    <input type="text" required name="phone number"
+                    maxlength="10"placeholder="Phone no."class="textbox">
+                </div>
+                <div class="clr"></div>
+            </div>
+            <div class="box">
+                <label for="email" class="flfontlabel"> Email id:</label>
+                <div class="fl iconbox"><i class="envelope" aria-hidden="true"></i></div>
+            </div>
+            <div class="fr">
+                <input type="email" required name="email" placeholder="Email id" class="textbox">
+            </div>
+            <div class="clr"></div>
+            <div class="box">
+                <label for="password" class="flfontlabel">Password</label>
+            <div class="fl iconbox"><i class="key"aria-hidden="true"></i></div>
+           <div class="fr">
+            <input type="password" required name ="password" placeholder="password" class="textbox">
+           </div>
+           <div class="clr"></div>
+         </div>
+         <div class="box radio">
+            <label for="gender" class="flfontlabel">Gender</label>
+            <input type="radio" name="Gender" value="male"required>Male
+            <input type="radio" name="gender" value="female" required>Female
+         </div>
+         <br>
+         <div class="boxterm">
+            <input type="checkbox" name="terms" required >I accept the terms and condition
+
+         </div>
+         <div class="box">
+        <input type="submit" name="submit" class="submit" value="SUBMIT">
+    </div>
+            
+
+        </form>
+        </div>
+</body>
+</html>

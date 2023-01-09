@@ -1,0 +1,56 @@
+label{
+    color:rgb(147, 41, 204);
+    background-color: bisque;
+
+}
+
+::placeholder{
+    color:rgb(73, 33, 95);
+}
+input{
+    color:blue;
+    background-color: aquamarine;
+}
+ul{
+    color:blue;
+    background-color: rgb(193, 163, 221);}
+
+    ol{
+        color:blanchedalmond;
+    }
+
+#blue{
+    color:rgb(28, 42, 37);
+    
+    padding:55px 10px 10px 10px;
+    height:400px;
+    width: 400px;
+    border:1px dotted black;
+    margin:10px 10px 10px 550px;
+    box-shadow: 20px 20px 20px;
+}
+#blue:hover{
+    color:rgb(15, 33, 226);
+    background-color: rgba(253, 220, 253, 0.826);
+    padding:55px 10px 10px 10px;
+    height:400px;
+    width: 400px;
+    border:1px dotted rgb(217, 34, 34);
+    margin:10px 10px 10px 550px;
+    box-shadow: 20px 20px 20px;
+}
+
+
+
+    .red{
+        color:bisque;
+    }
+    [align="centre"]{
+        color: blueviolet;
+    }
+
+    
+    p{
+        color: blueviolet;
+        background-color:rgba(137, 43, 226, 0.214);
+    }

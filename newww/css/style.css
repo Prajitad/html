@@ -1,0 +1,30 @@
+
+.Firstbox {
+    height: 1000px;
+    width: 800px;
+    background-color:darkgrey;
+    position:relative;
+}
+.Secondbox {
+    height: 500px;
+    width: 400px;
+    background-color: yellow;
+    position:absolute;
+    padding:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:30px;
+    margin-top: 70px;
+    z-index: 2;
+
+
+}
+.Thirdbox {
+    width: 500px;
+    height: 700px;
+    background-color: skyblue;
+    position: absolute;
+    color:rgb(34, 7, 7);
+    text-align: right;
+
+}
